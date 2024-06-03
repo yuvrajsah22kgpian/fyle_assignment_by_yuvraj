@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slider.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <div id='division-container' style="display: flex;flex-direction: column;justify-content: center;align-content: center;background:#FFFFFF 0% 0% no-repeat padding-box;gap:64px">
+        <div class="artbot" id='division1' >
+            <div class="parent">
+                <div class="child1">
+                <div class="label1"><label>AWARD WINNING</label></div>
+                <div class="label2"><label>Digital Marketing<br> Agency</label></div>
+                <div class="label3"><p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque<br>
+                        vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus<br>
+                        feugiat et fermentum</p></div>
+                <!-- contact us button -->
+                <button id="switch-division-btn" class="contact">Contact Us</button> 
+                </div>
+                <div class="child2">
+                <img src="hero\hero.png" class="image">
+                </div>
+            </div>
+            <div class="rectangle">
+                <div class="label4"><label>WHAT WE DO</label></div>
+                <div class="parent">
+                <div class="label5"><label>Services provide<br>for you</label></div>
+                <div class="label6"><p>Morbi sed lacus nec risus finibus feugiat et
+                    fermentum nibh. Pellentesque<br>vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus<br>
+                    feugiat et fermentum</p></div>
+                </div>     
+                <div class="container">
+                    <div class="slider-container">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <div class="card" ><div class="background-image" style="background-image: url('Home/1-2.png');"></div></div>
+                                <div class="card" ><div class="background-image" style="background-image: url('Home/2-2.png');"></div></div>
+                                <div class="card" style="background-color: #FF3147;display: flex;flex-direction: column;justify-content: center;align-items: center;align-content: center;gap:20px;">
+                                    <div><img src="Home/icon.svg"></div>
+                                    <div style="width: 300px;
+                                    height: 24px;
+                                    /* UI Properties */
+                                    text-align: center;
+                                    font: normal normal 600 24px/26px Cormorant SC;
+                                    letter-spacing: 0px;
+                                    color: #FFFFFF;
+                                    opacity: 1;">WEB DEVELOPMENT</div>
+                                    <div style="width: 320px;
+                                    height: 54px;
+                                    text-align: center;
+                                    font: normal normal normal 16px/30px Poppins;
+                                    letter-spacing: 0px;
+                                    color: #FFFFFF;
+                                    opacity: 1;">Morbi sed lacus nec risus finibus feugiat<br>
+                                         et fermentum nibh. Pellentesque</div>
+                                    <div><button id='next-page-btn' style="width: 185px;
+                                        height: 50px;
+                                        background: #F4F4F4 0% 0% no-repeat padding-bo;color:#FF3147">READ MORE<img src="Home/arrow.svg"></button></div>
+                                </div>
+                                <div class="card"><div class="background-image" style="background-image: url('Home/3-2.png');"></div></div>
+                                <!-- <div class="card"><img></div> -->
+                                <!-- <div class="card"><img></div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="indicator-container">
+                    <span class="indicator active" onclick="jumpToSlide(0)"></span>
+                    <span class="indicator" onclick="jumpToSlide(1)"></span>
+                    <span class="indicator" onclick="jumpToSlide(2)"></span>
+                </div>
+            </div>
+            <div style="text-align: center;font: normal normal 600 24px/26px Cormorant SC;
+            letter-spacing: 0px;
+            color: #FF3147;
+            opacity: 1;">
+                WHY CHOOSE US
+            </div>
+            <div style="text-align: center;font: normal normal bold 45px/65px Cormorant SC;letter-spacing: 0px;
+            color: #000000;
+            text-transform: uppercase;
+            opacity: 1;">
+                Why We Are Best
+            </div>
+            <div style="display: flex;gap:49px;justify-content: center;align-content: center;height:fit-content;">
+
+                <div class="fontstyle">
+                    <div style="height:75px;width:75px;"><img src="Home/1-1.svg"></div>
+                    <div style="font: normal normal medium 20px/80px Poppins !important;">Clarified Vision & Target</div>
+                    <div><p>Lorem ipsum dolor sit amet,<br>
+                        consetetur sadipscing elitr, sed<br>
+                        diam nonumy.</p></div>
+                </div>
+                <div class="fontstyle">
+                    <div style="height:75px;width:75px;"><img src="Home/2-1.svg"></div>
+                    <div style="font: normal normal medium 20px/80px Poppins !important;">High Performance</div>
+                    <div><p>Lorem ipsum dolor sit amet,<br>
+                        consetetur sadipscing elitr, sed<br>
+                        diam nonumy.</p></div>
+                </div>
+                <div class="fontstyle">
+                    <div style="height:75px;width:75px;"><img src="Home/3-1.svg"></div>
+                    <div style="font: normal normal medium 20px/80px Poppins !important;">Maintain Security</div>
+                    <div><p>Lorem ipsum dolor sit amet,<br>
+                        consetetur sadipscing elitr, sed <br>
+                        diam nonumy.</p></div>
+                </div>
+                <div class="fontstyle">
+                    <div style="height:75px;width:75px;"><img src="Home/4.svg"></div>
+                    <div style="font: normal normal medium 20px/80px Poppins !important;">Better Strategy & Quality</div>
+                    <div><p> Lorem ipsum dolor sit amet,<br>
+                        consetetur sadipscing elitr, sed <br>
+                        diam nonumy.</p></div>
+                </div>
+            </div>
+            <div style="text-align: center;
+            font: normal normal 600 24px/26px Cormorant SC;
+            letter-spacing: 0px;
+            color: #FF3147;
+            text-transform: uppercase;
+            opacity: 1;">
+                Our project
+            </div>
+            <div style="text-align: center;
+            font: normal normal bold 45px/65px Cormorant SC;
+            letter-spacing: 0px;
+            color: #000000;
+            text-transform: uppercase;
+            opacity: 1;">
+                Why We Are Best
+            </div>
+            <div style="display: flex;justify-content: center;align-content: center;gap: 15px">
+                <div id="image-container" style="background: transparent url(Home/image.png) 0% 0% no-repeat padding-box;
+                opacity: 1;width: 770px;height: 567px;">
+                    <!-- image -->
+                </div>
+                <div style="display:flex;flex-direction: column;height: 567px;width: 370px;">
+                    <!-- column -->
+                    <div class="clickable-division" style="background: #F6F6F6 0% 0% no-repeat padding-box;padding: 10px;text-align: center;height:33.3%;align-content: center;">
+                        <h2>Genderless Kei – Japan’s Hot</h2>
+                        Set to launch on the manufacturer’s<br>
+                        new A330neo aircraft in 2017, it’s<br>
+                        offering lots of
+                    </div>
+                    <div class="clickable-division" style="background: #F6F6F6 0% 0% no-repeat padding-box; padding: 10px;text-align: center;height:33.3%;align-content: center;">
+                        <h2>Better Strategy & Quality</h2>
+                        Set to launch on the manufacturer’s<br>
+                        new A330neo aircraft in 2017, it’s<br>
+                        offering lots of
+                    </div>
+                    <div class="clickable-division" style="background: #F6F6F6 0% 0% no-repeat padding-box;padding: 10px;text-align: center;height:33.3%;align-content: center;">
+                        <h2>Genderless Kei – Japan’s Hot</h2>
+                        Set to launch on the manufacturer’s<br>
+                        new A330neo aircraft in 2017, it’s<br>
+                        offering lots of
+                    </div>
+                </div>
+            </div>
+            <div class="rectangle248">
+                <div style="width: 226px;
+                height: 24px;
+                /* UI Properties */
+                text-align: center;
+                font: normal normal 600 24px/26px Cormorant SC;
+                letter-spacing: 0px;
+                color: #FF3147;
+                text-transform: uppercase;
+                opacity: 1;">Experts growts</div>
+                <div style="width: 100%;
+                height: 45px;
+                /* UI Properties */
+                text-align: center;
+                font: normal normal bold 45px/65px Cormorant SC;
+                letter-spacing: 0px;
+                color: #000000;
+                text-transform: uppercase;
+                opacity: 1;">Our Company Growth</div>
+                <div style="display:flex;justify-content: center;align-content: center;gap:50px;">
+                    <div class="box">
+                        <div style="background: transparent url('Home/heart (2).svg') 0% 0% no-repeat padding-box;width: 40px;
+                        height: 40px;"></div>
+                        <div style="
+                        width: 148px;
+                        height: 40px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 60px/65px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        text-transform: uppercase;
+                        opacity: 1;">199 +</div>
+                        <div style="width: 208px;
+                        height: 28px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 20px/80px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        opacity: 1;">Staticfied Customers</div>
+                    </div>
+                    <div class="box">
+                        <div style="background: transparent url('Home/clock (3).svg') 0% 0% no-repeat padding-box;width: 40px;
+                        height: 40px;"></div>
+                        <div style="
+                        width: 148px;
+                        height: 40px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 60px/65px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        text-transform: uppercase;
+                        opacity: 1;">1591+</div>
+                        <div style="width: 208px;
+                        height: 28px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 20px/80px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        opacity: 1;">Days Of Operation</div>
+                    </div>
+                    <div class="box">
+                        <div style="background: transparent url('Home/Path 4402.svg') 0% 0% no-repeat padding-box;width: 40px;
+                        height: 40px;"></div>
+                        <div style="
+                        width: 148px;
+                        height: 40px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 60px/65px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        text-transform: uppercase;
+                        opacity: 1;">283 +</div>
+                        <div style="width: 208px;
+                        height: 28px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 20px/80px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        opacity: 1;">Complete Project</div>
+                    </div>
+                    <div class="box">
+                        <div style="background: transparent url('Home/Path 4406.svg') 0% 0% no-repeat padding-box;width: 40px;
+                        height: 40px;"></div>
+                        <div style="width: 108px;
+                        height: 40px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 60px/65px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        text-transform: uppercase;
+                        opacity: 1;">75+</div> 
+                        <div style="width: 208px;
+                        height: 28px;
+                        /* UI Properties */
+                        text-align: center;
+                        font: normal normal 300 20px/80px Poppins;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        opacity: 1;">Win Awards</div>
+                    </div>
+                </div>
+            </div>
+            <div style="display:flex;flex-direction: column;align-items: center;justify-content: center;align-content: center;flex-wrap: wrap;gap: 60px;">
+                <div style="width: 100%;
+                height: 24px;
+                /* UI Properties */
+                text-align: center;
+                font: normal normal 600 24px/26px Cormorant SC;
+                letter-spacing: 0px;
+                color: #FF3147;
+                text-transform: uppercase;
+                opacity: 1;">
+                    client's feedback
+                </div>
+                <div style="width: 598px;
+                height: 45px;
+                /* UI Properties */
+                text-align: center;
+                font: normal normal bold 45px/65px Cormorant SC;
+                letter-spacing: 0px;
+                color: #000000;
+                text-transform: uppercase;
+                opacity: 1;">
+                    people say's about us !
+                </div>
+                <div style="width: 831px;
+                height: 62px;
+                /* UI Properties */
+                text-align: left;
+                font: normal normal normal 20px/34px Poppins;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;">
+                    <img src="Home/Quotemarks-left.svg" style="width: 64px;
+                    height: 45px;position: absolute;">
+                    Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is<br>
+                    reproduced below for those interested. Sections Bonorum et Malorum original.
+                </div>
+                <div style="display: flex;gap:0px;width:55%">
+                    <div style="width: 159px;
+                    height: 28px;
+                    /* UI Properties */
+                    text-align: left;
+                    font: normal normal bold 20px/34px Poppins;
+                    letter-spacing: 0px;
+                    color: #FF3147;
+                    opacity: 1;">JANNAT TUMPA</div>
+                    <div style="width: 500px;
+                    height: 28px;
+                    /* UI Properties */
+                    text-align: left;
+                    font: normal normal 300 20px/34px Poppins;
+                    letter-spacing: 0px;
+                    color: #808080;
+                    opacity: 1;">- COO, AMERIMAR ENTERPRISES, INC.</div>
+                </div>
+            </div>
+            <div class="rectangle_nopath">
+                <div class="footerimage">
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="slider.js"></script>
+        <script src="index.js"></script>
+</body>
+</html>

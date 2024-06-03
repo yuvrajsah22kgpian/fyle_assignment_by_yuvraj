@@ -1,0 +1,77 @@
+.container {
+    /* font-family: Arial, sans-serif; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+    margin-top: 5vh;
+    /* background-color: #d12f2f; */
+    gap: 10px;
+}
+
+.slider-container {
+    position: relative;
+    width: 75%;
+    /* max-width: 800px; */
+    overflow: hidden;
+    /* background-color: #26b857; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.slider-wrapper {
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card {
+    min-width: 33.3333%;
+    padding: 20px;
+    box-sizing: border-box;
+    /* background: white; */
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    height:50vh;
+}
+
+.indicator-container {
+    /* position: absolute; */
+    display:flex;
+    gap: 20px; /* Space between indicators */
+    margin-left: 23.5vh;
+    width:100px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    background: transparent url('Home/2.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.indicator.active {
+    width:30px;
+    height:30px;
+    background: transparent url('Home/1.svg') 0% 0% no-repeat padding-box;
+}
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
